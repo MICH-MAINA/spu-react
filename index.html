@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/69f49bfefb.js" crossorigin="anonymous"></script>
+    
+    <!-- <script src="http://localhost:8097"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <main>
+        <!--logo and name of the university-->
+            <div class="t-top">
+                <div class="row">
+                    <img class="logo" src="./IMAGES/header/logo.png" alt="spu.logo">
+                    <div class="write">
+                        <h1></h1>
+                        <h2>Your univerity of choice!</h2> 
+                     </div><br><br>
+                     <form class="search">
+                    <input type="search" placeholder="search" style="left: 80%;">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                     </form>
+                </div>
+
+                <!--logo and name of the university ends-->
+            
+        
+        <!--navigation menu--> 
+        <header id="nav">
+        <div class="container">
+            <nav>
+              <ul class="nav-list"   >
+                <li><a href="index.html">HOME</a></li>
+                
+                <li><div id="design"><a class="dropbtn" >ABOUT SPU <i class="fa fa-caret-down"></i></a></div>
+
+                <ul id="design-revealed" class="sub-menu dropdown1">
+                    <li><a>OUR HISTORY</a></li>
+                    <li><a href="https://www.spu.ac.ke/new/index.php/about/vision-mission">VISION &amp; MISSION</a></li>
+                    <li><a href="https://www.spu.ac.ke/new/index.php/about/core-values-objectives">CORE VALUES &amp; OBJECTIVES</a></li>
+                    <li><a href="https://www.spu.ac.ke/new/index.php/about/board-of-management">BOARD OF MANAGEMENT</a></li>
+                    <li><a href="https://www.spu.ac.ke/new/index.php/about/university-council">UNIVERSITY COUNCIL</a></li>
+                    <li><a href="https://www.spu.ac.ke/new/index.php/about/collaborations">COLLABORATIONS</a></li>
+                    <li><a href="https://www.spu.ac.ke/new/index.php/about/collaborations" class="dropbtn">CAMPUSES &raquo;</a>
+                    
+                        <ul class="sub-menu drop-down">
+                        <li><a href="https://www.spu.ac.ke/new/index.php/about/collaborations">LIMURU CAMPUS</a></li>
+                        <li><a href="https://www.spu.ac.ke/new/index.php/about/collaborations">NAIROBI CAMPUS</a></li>
+                        <li><a href="https://www.spu.ac.ke/new/index.php/about/collaborations">NAKURU CAMPUS</a></li>
+                        <li><a href="https://www.spu.ac.ke/new/index.php/about/collaborations">MACHAKOS CAMPUS</a></li>
+                        </ul>
+                </li>
+               <li><a href="https://www.spu.ac.ke/new/index.php/about/collaborations">STUDENT LIFE &raquo;</a>
+                    <ul class="sub-menu">
+                        <li><a href="https://www.spu.ac.ke/new/index.php/about/collaborations">SPORTS</a></li>
+                        <li><a href="https://www.spu.ac.ke/new/index.php/about/collaborations">RECREATION ACTIVITIES</a></li>  
+                    </ul>  
+                    </li>
+
+                </ul>
+            </li>
+                
+                <li><a href="https://www.spu.ac.ke/new/index.php/about" class="dropbtn">FACULTIES <i class="fa fa-caret-down"></i></a>
+
+                    <ul class="sub-menu">
+                        <li><a href="#">FACULTY OF THEOLOGY &raquo;</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">message from dean</a></li>
+                                <li><a href="#">academic programmes</a></li>
+                                <li><a href="#">faculty</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">FACULTY OF BUISNESS  &raquo;</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">message from dean</a></li>
+                                <li><a href="#">academic programmes</a></li>
+                                <li><a href="#">faculty</a></li>
+                            </ul>
+                        
+                        </li>
+                        <li><a href="#">FACALY OF SOCIAL SCIENCE  &raquo;</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">message from dean</a></li>
+                                <li><a href="#">academic programmes</a></li>
+                                <li><a href="#">faculty</a></li>
+                            </ul>
+                        
+                        </li>
+                        
+                    </ul>
+    
+                </li>
+                    <li><a href="https://www.spu.ac.ke/new/index.php/about" class="dropbtn">ACADEMIC PROGRAMMES <i class="fa fa-caret-down"></i></a>
+
+                        <ul class="sub-menu">
+                            <li><a href="#">POST GRADUATE PROGRAMMES</a></li>
+                            <li><a href="#">UNDER GRADUATE PROGRAMMES</a></li>
+                            <li><a href="#">DIPLOMMA PROGRAMMES</a></li>
+                            <li><a href="https://www.spu.ac.ke/new/index.php/about/board-of-management">CERTIFICATE PROGRAMMES</a></li>
+            
+                        </ul>
+        
+                    </li>
+                    <li><a href="https://www.spu.ac.ke/new/index.php/about">LIBRARY</a></li>
+
+                        <li><a href="https://www.spu.ac.ke/new/index.php/about" class="dropbtn">REGISTRY <i class="fa fa-caret-down"></i></a>
+
+                            <ul class="sub-menu">
+                                <li><a href="https://www.spu.ac.ke/new/index.php/about/our-history">ACADEMIC CLAENDER</a></li>
+                                <li><a href="https://www.spu.ac.ke/new/index.php/about/vision-mission">ACADEMIC SCHOLARSHIPS</a></li>
+                                <li><a href="https://www.spu.ac.ke/new/index.php/about/core-values-objectives">AMISSION REGULATIONS</a></li>
+                                <li><a href="./graduation.html">GRADUATION &raquo;</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">graduation speeches</a></li>
+                                        <li><a href="#">voice magazine</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="https://www.spu.ac.ke/new/index.php/about/university-council">VERIFY CERTIFICATES</a></li>
+                                
+                            </ul>
+            
+                        </li>
+                            <li><a href="https://www.spu.ac.ke/new/index.php/about" class="dropbtn">DIRECTORATES <i class="fa fa-caret-down"></i></a>
+
+                                <ul class="sub-menu">
+                                    <li><a href="https://www.spu.ac.ke/new/index.php/about/our-history">DISTANCE LEARNING  &raquo;</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">programmes offered</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.spu.ac.ke/new/index.php/about/vision-mission">BOARD OF POSGRADUTE STUDIES  &raquo;</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">message from the director</a></li>
+                                            <li><a href="#">programmes offered</a></li>
+                                            <li><a href="#">document</a></li>
+                                            <li><a href="#">policies</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.spu.ac.ke/new/index.php/about/core-values-objectives">QUALITY ASSURANCE DIRECTORATE</a></li>
+                                    <li><a href="https://www.spu.ac.ke/new/index.php/about/board-of-management">RESEARCH DIRECTORATE  &raquo;</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">publication</a></li>
+                                            <li><a href="#">confrencess</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.spu.ac.ke/new/index.php/about/university-council">SPILL &amp; LDC  &raquo;</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">upcoming trainings</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                </ul>
+                
+                            </li>
+                                <li><a href="https://www.spu.ac.ke/new/index.php/about" class="dropbtn">PORTALS <i class="fa fa-caret-down"></i></a>
+                                      <ul class="sub-menu">
+                                        <li><a href="https://www.spu.ac.ke/new/index.php/about/our-history">KUCCUPS STUNDETS </a></li>
+                                        <li><a href="https://www.spu.ac.ke/new/index.php/about/vision-mission">STAFF PORTAL</a></li>
+                                        <li><a href="https://www.spu.ac.ke/new/index.php/about/core-values-objectives">STUDENT PORTAL</a></li>
+                                        <li><a href="https://www.spu.ac.ke/new/index.php/about/board-of-management">E-LEARNING PORTAL</a></li>
+                                        <li><a href="https://www.spu.ac.ke/new/index.php/about/university-council">V-LEARNING PORTAL</a></li>
+                                       
+                                    </ul>
+                                </li>
+                                    <li><a href="./contact.html">CONTACT US</a></li>
+                                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="humFunction()">&#9776;</a>
+
+                </ul>
+                    <!-- humbuger menu -->
+                <div class="menu-btn">
+                    <i class="fas fa-bars" ></i>
+                </div>
+              
+            </nav>
+                      
+        </div>
+        
+                      
+    </header>
+</div>
+<!--navigation menu ends--> 
+
+            
+            
+        <!-- slideshow section -->
+        <div class="slideshow-content " id="slideshow">
+
+        
+            <div class="mySlides fade">
+               <img src="./slide show/Image ab.jpg" alt="img"> 
+            </div>
+
+            <div class="mySlides fade">
+               <img src="./slide show/Image b.jpg" alt="img"> 
+            </div>
+
+            <div class="mySlides fade">
+               <img src="./slide show/Image c.jpg" alt="img"> 
+            </div>
+
+            <div class="mySlides fade">
+               <img src="./slide show/Image d.jpg" alt="img"> 
+            </div>
+
+            <div class="mySlides fade">
+               <img src="./slide show/Image e.jpg" alt="img"> 
+            </div> 
+        </div>
+        <div style="text-align: center;">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <!-- slideshow section ends-->
+
+        <!-- body  of the homepage -->
+         <!--about section start-->
+    <section class="about" id="about me">
+        <div class="max-width">
+            <h2 class="title">Welcome to ST. Paul's University</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="IMAGES/body/Prof.-James-Kombo.jpg" alt="">
+
+                </div>
+                <div class="column right">
+                    <div class="text">Prof. James Kombo<span> Vice Chancellor</span></div>                
+                <p>St. Paul’s University is a Christian ecumenical institution with students and staff from all over the world. Our mission is to raise the standards of education through holistic learning,
+                     in a Christian ecumenical atmosphere that gives room for people of all faiths to find a place of study, research, intellectual and spiritual engagement and growth.We dare dream, plan and act, as we serve God and humanity.
+                      We have continued to make great strides and are ever grateful to all who have been part of our journey. We do not take for granted the high standards of excellence that we see all round us. It has taken genuine willingness of many who have sacrificially given of themselves in extraordinary service. 
+                      We owe our successes to God and to all who proudly and selflessly carry the distinctive St. Paul’s mark of dedication
+                </p>
+                
+                <a href="#">Read More</a>
+               </div> 
+            </div>
+        </div>
+    </section>
+    <!-- about section ends -->
+
+        
+    <!-- Academic section begins -->
+        <h3 id="academic">Academics</h3><br>
+        <div class="academic">
+            <div class="caard">
+                <img src="./IMAGES/body/Faculties.jpg" alt="faculties">
+                <div class="info">
+                    <h2>Faculties</h2>
+                    <p>Faculty of Theology, Faculty of Business Compuer Science and Communication Studies</p>
+                    <a href="https://www.spu.ac.ke/new/index.php/our-faculties">Read More</a>
+                </div>
+            </div>
+            <div class="caard">
+                <img src="./IMAGES/body/Academic-Programmes.jpg" alt="academic-programmes">
+                <div class="info">
+                    <h2>Academic Programmes</h2>
+                    <p>We offer unique postgraduate, undergraduate, diploma and certificate programs.&nbsp;</p>
+                    <a href="https://www.spu.ac.ke/new/index.php/our-academic-programmes">Read More</a>
+                </div>
+            </div>
+            <div class="caard">
+                <img src="./IMAGES/body/Postgraduate-studies.jpg" alt="postgraduate-studies">
+                <div class="info">
+                    <h2>Postgraduate Studies</h2>
+                    <p>The Board of Postgraduate Studies of St. Paul’s University envisions itself as an efficient Board dedicated</p>
+                    <a href="https://www.spu.ac.ke/new/index.php/board-of-postgraduate-studies">Read More</a>
+                </div>
+            </div>
+            <div class="caard">
+                <img src="./IMAGES/body/Distance-Learning.jpg" alt="distance-learning">
+                <div class="info">
+                    <h2>Distance Learning</h2>
+                    <p>St. Paul’s University rolled out its Distance Learning Academic Programmes in September 2012</p>
+                    <a href="./distancelearning.html">Read More</a>
+                </div>
+            </div>
+            
+                <!-- <div class="academic-column"> -->
+                <div class="caard">
+                    <img src="./IMAGES/body/Distance-Learning.jpg" alt="faculties">
+                    <div class="info">
+                        <h2>Faculties</h2>
+                        <p>Faculty of Theology, Faculty of Business Compuer Science and Communication Studies</p>
+                        <a href="https://www.spu.ac.ke/new/index.php/our-faculties" class="tag">Read More</a>
+                    </div>
+                </div>
+                <div class="caard">
+                    <img src="./IMAGES/body/Research.jpg" alt="academic-programmes">
+                <div class="info">
+                <h2>Academic Programmes</h2>
+                <p>We offer unique postgraduate, undergraduate, diploma and certificate programs.&nbsp;</p>
+                <a href="https://www.spu.ac.ke/new/index.php/our-academic-programmes" class="tag">Read More</a></div></div>
+                <div class="caard">
+                    <img src="./IMAGES/body/Academic-Calendar.jpg" alt="postgraduate-studies">
+                <div class="info">
+                <h2>Postgraduate Studies</h2>
+                <p>The Board of Postgraduate Studies of St. Paul’s University envisions itself as an efficient Board dedicated</p>
+                <a href="https://www.spu.ac.ke/new/index.php/board-of-postgraduate-studies" class="tag">Read More</a></div></div>
+                <div class="caard">
+                    <img src="./IMAGES/body/Study_at_SPU.jpg" alt="distance-learning">
+                <div class="info">
+                <h2>Distance Learning</h2>
+                <p>St. Paul’s University rolled out its Distance Learning Academic Programmes in September 2012</p>
+                <a href="./distancelearning.html" class="tag">Read More</a></div>
+                </div>
+
+                </div>
+                <!-- academic section ends -->
+
+
+    
+
+    
+
+
+<!-- partners -->
+
+<div class="partners-top">
+    <h3 >Our partners</h3>
+        
+    <div class="myPartners" id="root"></div>
+<div>
+<!-- footer of the page -->
+<div class="footer">
+    <div class="footer-row">
+        <div class="footer-column">
+            <h class="footer-heading">More From SPU</h>
+            <div class="footer-list">
+                <p><a href="https://www.spu.ac.ke/index.php/research">Research</a></p>
+            <p><a href="https://www.spu.ac.ke/index.php/downloads">Downloads</a></p>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h class="footer-heading">Find Out More</h>
+            <div class="footer-list">
+            <p><a href="http://www.spu.ac.ke/blog/" target="_blank">Blog</a></p>
+            <p><a href="http://journals.spu.ac.ke/" target="_blank">Journals</a></p>
+        </div>
+        </div>
+        <div class="footer-column">
+            <h class="footer-heading">Work With Us</h>
+            <div class="footer-list">
+            <p><a href="https://www.spu.ac.ke/new/index.php/careers">Careers</a></p>
+            <p><a href="https://www.spu.ac.ke/new/index.php/tenders">Tenders</a></p>
+            <p><a href="https://www.spu.ac.ke/new/index.php/bank-account-details">Our Bank Detials</a></p>
+            </div>
+            </div>
+    </div>
+    <div class="footer-row bot">
+        <div class="footer-column "  style="height: 100px;">
+            <div class="footer-list social">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">YouTube</a>
+        </div>
+        </div>  
+
+        <div class="footer-column" style="height: 120px;"><img class="footerLogo" src="./IMAGES/header/logo.png" alt="spu.logo"></div>
+        <div class="footer-column copyright">© 2021 St. Paul's University</div>
+</div>
+
+
+
+
+    </main>
+   
+
+  <!-- Load our React component. -->
+  <script src="home.js"></script>
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script type= "module" src="./suggestions/src/App.js"></script>
+</body>
+</html>
+
+
